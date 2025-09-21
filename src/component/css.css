@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(42, 39, 50);
+}
+
+.mac{
+    width: 90px;
+    padding-top: 10px;
+    margin-right: 85%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.mac:hover{
+    cursor: pointer;
+}
+
+
+#vr{
+    height: 35px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25%;
+    gap: 50px;
+}
+
+
+
+
+#r{
+height: 15px;
+width: 15px;
+border: 1px solid red;
+border-radius: 50px;
+background-color: red;
+}
+#y{
+ height: 15px;
+width: 15px;
+border: 1px solid yellow;
+border-radius: 50px;
+background-color: yellow;
+}
+#g{
+ height: 15px;
+width: 15px;
+border: 1px solid green;
+border-radius: 50px;
+background-color: green;
+}
+.Nav-container{
+    height: 50px;
+    width: auto;
+    background-color: rgb(246, 88, 88);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+    padding-left: 100px;
+}
+
+.Nav-container a {
+        text-decoration: none;
+        color: white;
+        height: 17px;
+        width: auto;
+        padding: 5px;
+}
+.Nav-container a:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: yellow;
+    color: black;
+    transition-duration: .2s;
+}
+.Nav-container a:active{
+    transform: translateY(-5px);
+}
+
+
+
+.Home-page{
+    height: auto;
+    width: 680px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(42, 39, 50); */
+    background-color: rgb(28, 28, 28);
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.Home-page input{
+    height: 30px;
+    width: 350px;
+     border: 3px solid  rgb(42, 39, 50);
+     border-radius: 10px;
+     padding-left: 10px;
+     font-size: 15px;
+     background-color: gainsboro;
+    /* margin-right: 100px; */
+}
+.Home-page:hover{
+    filter: drop-shadow(0px 0px 5px beige);
+    transition-duration: .5s;
+    
+}
+
+.Home-page button{
+    height: 37px;
+    margin-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 10px; 
+    border: 2px solid rgb(42, 39, 50);
+    background-color: rgb(86, 250, 86);
+     border-radius: 50px;
+    border-radius: 5px ;
+    font-size: 15px;
+}
+.Home-page button:hover{
+    cursor: pointer;
+    color: rgb(250, 57, 8);
+    font-weight: 500;
+    background-color: rgb(231, 245, 123);
+    transform: translateY(-2px);
+    
+
+}
+ 
+
+/*                                                       paste page  */
+/* 
+.Pastes-page{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.Pastes-page input {
+    height: 30px;
+    width: 660px;
+}
+
+#content{
+    height: auto;
+    width: 645px;
+    border: 1px solid blueviolet;
+    margin-left: 24%;
+    gap: 20px ;
+    color: white;
+    padding: 10px;
+} */
+
+.back{
+    height: auto;
+    width: 995px;
+    padding: 20px;
+    background-color: rgb(21, 21, 21);
+    margin-left: 11%;
+}
+
+#input{
+    height: 30px;
+    width: 500px;
+    border: 3px solid  rgb(42, 39, 50);
+     border-radius: 10px;
+     padding-left: 10px;
+     font-size: 15px;
+     margin-bottom: 10px;
+     background-color: gainsboro;
+}
+.Pastes-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pastes-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#dabba{
+    height: auto;
+    width: 940px;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    min-width: 100px;
+    max-width: 100px;
+    border-left: 3px solid blueviolet;
+    padding: 5px;
+    color: #f55a5a ;
+}
+#dabba button {
+    height: 20px;
+    width: 50px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;    
+}
+
